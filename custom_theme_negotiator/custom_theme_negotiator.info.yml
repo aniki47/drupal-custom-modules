@@ -1,0 +1,6 @@
+name: Custom Theme Negotiatior
+description: Module used to change current page theme as per custom logic.
+type: module
+
+package: custom
+core: 8.x

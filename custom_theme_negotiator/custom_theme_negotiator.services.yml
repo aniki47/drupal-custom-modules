@@ -1,0 +1,8 @@
+# Module services file custom_theme_negotiator.services.yml
+
+services:
+
+    custom_theme_negotiator.theme.negotiator:
+        class: Drupal\custom_theme_negotiator\ThemeNegotiator
+        tags:
+          - { name: theme_negotiator, priority: 1000 }

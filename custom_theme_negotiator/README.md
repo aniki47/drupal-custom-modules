@@ -1,6 +1,5 @@
 # Custom Theme Negotiator
 
-コンテンツタイプによってサイトのテーマを指定されたテーマに変えてくれるモジュールです。
-管理者側とコンテンツタイプで作成されるページ以外のページテーマに影響はありません。
+Custom module that changes the theme of the site to the specified theme depending on the content type. It does not affect admin pages or pages other than the ones create from site content types.
 
-現在/src/ThemeNegotiator.phpのファイルで手動でコンテンツタイプと変えて欲しいテーマの定義する必要があります。
+At present you have to manually specify the target content type and the target theme you want to change in the /src/ThemeNegotiator.php file.
